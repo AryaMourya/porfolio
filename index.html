@@ -28,6 +28,16 @@
         <a class="logo" herf="#home">Arya <span>Mourya.</span></a>
 
         <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Toggle dark and light mode"
+        aria-pressed="false"
+        >
+        <span class="icon-moon" aria-hidden="true">🌙</span>
+        <span class="icon-sun" aria-hidden="true">☀️</span>
+        </button>
+
+        <button
         class="menu-button"
         type="button"
         aria-label="Open navigation menu"
@@ -37,13 +47,98 @@
     </button>
 
     <div class="nav-links" id="nav-links">
-        <a herf="work">projects</a>
+        <a herf="#work">projects</a>
         <a href="#about">About</a>
         <a href="#skills">skills</a>
         <a href="#learning">Learning</a>
         <a herf="#contact">Contacts</a>
     </div>
-    
+    <a class="resume-link" herf="" download>
+                Résumé ↗
+    </a>
     </nav>
+  </header>
+  <main>
+    <!--Main section-->
+    <section id="home" class="hero container">
+    <div class="hero-content">
+        <p class="availability">
+            <span class="status-dot"></span>
+             Open to internships and learning opportunities
+        </p>
+
+        <p class="eyebrow">
+            Python · Java · Web development · AI/ML learner
+        </p>
+
+        <h1>
+          I build software
+          <span class="gradient-text">while learning what’s next.</span>  
+        </h1>
+
+        <p class="hero-description">
+             I’m Arya Mourya, a developer working with Python and Java while
+          building a strong foundation in artificial intelligence,
+          machine learning, and modern web development.
+        </p>
+
+        <div class="hero-buttons">
+           <a class="button button-primary" href="#work">
+            View my projects <span>↓</span>
+          </a> 
+          <a
+            class="button button-secondary"
+            href="https://www.linkedin.com/in/arya-mourya-a6a126316"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>03+</strong>
+            <span>Projects built</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Areas explored</span>
+          </div>
+
+          <div>
+            <strong>01</strong>
+            <span>ML journey starting</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+         <div class="glow glow-purple"></div>
+        <div class="glow glow-blue"></div>
+
+        <div class="code-card">
+            <div class="window-header">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <pre><code><span class="pruple">const</span>developer = {
+                languages:[
+                 <span class="green">"Python"</span>,
+                 <span class="green">"Java"</span>
+                ],
+                learning: <span class="green">"machine Learning"</span>,
+
+                goal: <span class="green">"Build useful software"</span>
+            };</code></pre>
+        </div>
+    </div>
+    </section>
+
+    <!---->
+  </main>
     </body>
 </html>
